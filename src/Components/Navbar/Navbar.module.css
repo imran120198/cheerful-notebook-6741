@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+}
+
+.main > div {
+  height: 100%;
+}
+
+.main > div:nth-child(1) {
+  width: 20%;
+  display: flex;
+  background-image: url("https://animoto.com/static/AnimotoLogoBlobs-afa5652205594807da50c94d53f42b86.svg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: left;
+}
+
+.main > div:nth-child(1) > img {
+  height: 2.75rem;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.main > div:nth-child(2) {
+  width: 60%;
+  display: flex;
+}
+
+.main > div:nth-child(2) > div {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.catglink {
+  font-size: 16px;
+  font-weight: 700;
+  color: #23408c;
+  font-family: ProximaNova-Bold, helvetica neue, helvetica, arial, sans-serif;
+  text-decoration: none;
+}
+
+.main > div:nth-child(3) {
+  width: 20%;
+  display: flex;
+}
+
+.main > div:nth-child(3) > div {
+  margin-left: 50px;
+  margin-top: 20px;
+}
