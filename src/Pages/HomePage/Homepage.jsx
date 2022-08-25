@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../HomePage/Homepage.module.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import { Link } from "react-router-dom";
+import Footer from "../../Components/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -368,6 +369,10 @@ const Homepage = () => {
         </div>
       </div>
       {/*7th section end */}
+      {/*8th section start */}
+      <Footer/>
+      {/*8th section end */}
+
     </div>
   );
 };
