@@ -1,8 +1,9 @@
 .main {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 98%;
   height: 80px;
+  margin: auto;
 }
 
 .main > div {
@@ -25,8 +26,9 @@
 }
 
 .main > div:nth-child(2) {
-  width: 60%;
+  width: 40%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .main > div:nth-child(2) > div {
@@ -34,20 +36,23 @@
   margin-top: 20px;
 }
 
-.catglink {
+.catglink{
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   color: #23408c;
   font-family: ProximaNova-Bold, helvetica neue, helvetica, arial, sans-serif;
   text-decoration: none;
 }
 
 .main > div:nth-child(3) {
-  width: 20%;
+  margin-left: 120px;
+  width: 25%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .main > div:nth-child(3) > div {
-  margin-left: 50px;
+  margin-left: 40px;
   margin-top: 20px;
+  
 }
