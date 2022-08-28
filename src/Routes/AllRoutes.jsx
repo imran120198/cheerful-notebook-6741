@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Features from "../Pages/Features/Features";
 import Homepage from "../Pages/HomePage/Homepage";
-import Login from "../Pages/Login";
+import Login from "../Pages/Login/Login";
 import Pricing from "../Pages/Pricing/Pricing";
 import Templates from "../Pages/Templates/Templates";
 

@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "../HomePage/Homepage.module.css";
 import Navbar from "../../Components/Navbar/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 
 const Homepage = () => {
+  const navigate = useNavigate();
+
+  const handleButton = () => {
+    navigate("/");
+  };
   return (
     <div>
       <Navbar />
@@ -28,7 +33,7 @@ const Homepage = () => {
             </p>
           </div>
           <div>
-            <button>GET STARTED FREE</button>
+            <button onClick={handleButton}>GET STARTED FREE</button>
           </div>
         </div>
         <div>
@@ -141,7 +146,7 @@ const Homepage = () => {
                   textDecoration: "none",
                   fontSize: "16px",
                 }}
-                to="/template"
+                to="/templates"
               >
                 USE THIS TEMPLATE
               </Link>
@@ -157,7 +162,7 @@ const Homepage = () => {
                   textDecoration: "none",
                   fontSize: "16px",
                 }}
-                to="/template"
+                to="/templates"
               >
                 USE THIS TEMPLATE
               </Link>
@@ -173,7 +178,7 @@ const Homepage = () => {
                   textDecoration: "none",
                   fontSize: "16px",
                 }}
-                to="/template"
+                to="/templates"
               >
                 USE THIS TEMPLATE
               </Link>
@@ -217,7 +222,7 @@ const Homepage = () => {
               </p>
             </div>
             <div>
-              <button>GET STARTED FREE</button>
+              <button onClick={handleButton}>GET STARTED FREE</button>
             </div>
           </div>
           <div>
@@ -250,7 +255,9 @@ const Homepage = () => {
             </p>
           </div>
           <div>
-            <button className={styles.subbutton}>GET STARTED FREE</button>
+            <button className={styles.subbutton} onClick={handleButton}>
+              GET STARTED FREE
+            </button>
           </div>
         </div>
       </div>
@@ -272,7 +279,9 @@ const Homepage = () => {
             </p>
           </div>
           <div>
-            <button className={styles.subbutton}>GET STARTED FREE</button>
+            <button className={styles.subbutton} onClick={handleButton}>
+              GET STARTED FREE
+            </button>
           </div>
         </div>
         <div>
@@ -369,9 +378,8 @@ const Homepage = () => {
       </div>
       {/*7th section end */}
       {/*8th section start */}
-      <Footer/>
+      <Footer />
       {/*8th section end */}
-
     </div>
   );
 };
