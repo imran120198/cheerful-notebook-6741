@@ -1,0 +1,41 @@
+.loginmain{
+    border: 1px solid white;
+    width: 50%;
+    margin: auto;
+    height: 700px;
+    background-image: url("https://d2of6bhnpl91ni.cloudfront.net/bundles/react/images/BlueSplash.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginmain > p{
+    font-family: proximanova-semibold,'helvetica neue',helvetica,arial,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: .1px;
+    color: black;
+}
+
+.loginmain > input{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.loginmain > button{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
