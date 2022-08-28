@@ -8,7 +8,6 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
-
       {/* 1st section start */}
       <div className={styles.firstsection}>
         <div>

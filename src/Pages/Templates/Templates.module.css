@@ -1,0 +1,73 @@
+.template {
+  display: flex;
+  width: 95%;
+  height: 1600px;
+  margin: auto;
+}
+
+.template > div:nth-child(1) {
+  width: 20%;
+  height: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-family: proximanova, "helvetica neue", helvetica, arial, sans-serif;
+}
+
+.tempside > p {
+  color: #23408c;
+  font-size: 18px;
+  font-family: proximanova, "helvetica neue", helvetica, arial, sans-serif;
+}
+
+.template > div:nth-child(2) {
+
+  width: 70%;
+  height: 100%;
+}
+
+.maindiv {
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+.title > p,h1{
+  color: #181c47;
+  font-family: ProximaNova-Bold,sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  margin-left: -600px;
+}
+
+.videodiv {
+  height: 400px;
+  width: 30%;
+  margin: auto;
+  background-color: #f3f3f9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.video {
+  object-fit: contain;
+  max-width: 600px;
+  width: 90%;
+  height: 200px;
+}
+
+.videodiv > p {
+  font-family: proximanova-semibold, "helvetica neue", helvetica, arial,
+    sans-serif;
+  font-size: 16px;
+  color: #181c47;
+  text-align: center;
+  margin: 0px 12px 0px 12px;
+  
+}
+
+.videodiv > h3 {
+  font-family: proximanova-semibold, "helvetica neue", helvetica, arial,
+    sans-serif;
+  color: #181c47;
+  font-weight: 600;
+  text-align: center;
+}
