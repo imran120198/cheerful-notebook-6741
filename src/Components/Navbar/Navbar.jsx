@@ -32,7 +32,7 @@ const Navbar = () => {
           <p>LOG IN</p>
         </Link>
 
-        <Link className={styles.catglink} to="/signup">
+        <Link className={styles.catglink} to="/login">
           <p>SIGN UP FREE</p>
         </Link>
       </div>
